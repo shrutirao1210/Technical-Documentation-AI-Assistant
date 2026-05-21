@@ -125,12 +125,19 @@ After docstrings are written, one cell generates a complete `AUTO_README.md` cov
 
 ```text
 Technical-Documentation-AI-Assistant/
-├── autoreadme_demo_inputs/     # Sample uploaded Python files used for AutoREADME generation
-│   ├── model.py                # Example .py file
-│   └── train.py                # Example .py file
-├── AUTO_README.md              # Auto-generated README for the uploaded project
-├── final-ai-tech-doc.ipynb     # Main Kaggle notebook containing the complete pipeline
-└── README.md                   # Project documentation
+├── autoreadme_demo_inputs/          # Sample uploaded Python files used for AutoREADME generation
+│   ├── model.py                     # Example Python file
+│   └── train.py                     # Example Python file
+│
+├── gradio frontend screenshots/            # Gradio frontend screenshots
+│   ├── S1.png                       # Home page
+│   ├── S2.png                       # Project upload interface
+│   ├── S3.png                       # Documentation generation output
+│   └── S4.png                       # README generation output
+│
+├── AUTO_README.md                   # Auto-generated README for the uploaded project
+├── final-ai-tech-doc.ipynb          # Main Kaggle notebook containing the complete pipeline
+└── README.md                        # Project documentation
 ```
 
 ---
